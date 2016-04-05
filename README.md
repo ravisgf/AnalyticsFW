@@ -1,9 +1,5 @@
-# pete
-[![Build Status](https://travis-ci.org/lenhard/pete.png?branch=master)](https://travis-ci.org/lenhard/pete)
-
-**DISCLAIMER: pete has been renamed and moved to** [prope](https://github.com/uniba-dsg/prope)
-
-pete is a tool for computing metrics that characterize the portability of executable service-oriented processes implemented in several process languages. 
+# 
+ is a tool for computing metrics that characterize the portability of executable service-oriented processes implemented in several process languages. 
 So far, BPMN 2.0 and BPEL 2.0 process definitions are supported.
 
 ## Quality Characteristics
@@ -76,13 +72,3 @@ Pete produces three different files that are written to the root directory and c
 | `src/main/r`     | scripts written in R that consume the CSV file produced by pete and perform several simple analyses of the data| 
 | `src/test/java`     | JUnit tests for pete| 
 | `src/test/resources`     | files that are analyzed during the unit tests| 
-
-## Authors 
-
-[Joerg Lenhard](http://www.uni-bamberg.de/pi/team/lenhard-joerg/)
-
-## Contribution Guide
-Contribution is appreciated! Feel free to open issues. Apart from that, the normal git workflow applies:
-
-- Fork
-- Send Pull Request
